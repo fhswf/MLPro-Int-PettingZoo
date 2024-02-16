@@ -13,7 +13,9 @@ packages=['mlpro_int_pettingzoo'],
 extras_require={
     "full": [
         "mlpro[full]>=1.3.1",
-        "pettingzoo[all]>=1.22.3"
+        "pettingzoo>=1.22.3",
+        "pygame>=2.1.3",
+        "pymunk>=6.4.0"
     ],
 },
 
