@@ -6,7 +6,7 @@
 MLPro-Int-PettingZoo - Integration between PettingZoo and MLPro
 ==============================================================
 
-Welcome to MLPro-Int-Gymnasium, an extension to MLPro to integrate the PettingZoo package.
+Welcome to MLPro-Int-PettingZoo, an extension to MLPro to integrate the PettingZoo package.
 MLPro is a middleware framework for standardized machine learning in Python. It is 
 developed by the South Westphalia University of Applied Sciences, Germany, and provides 
 standards, templates, and processes for hybrid machine learning applications. PettingZoo, in 
