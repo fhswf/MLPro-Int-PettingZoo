@@ -53,7 +53,7 @@ from pettingzoo.butterfly import pistonball_v6
 from pettingzoo.classic import connect_four_v3
 from mlpro.bf.math import *
 from mlpro.rl import *
-from mlpro_int_pettingzoo.wrappers import WrEnvPZOO2MLPro
+from mlpro_int_pettingzoo import WrEnvPZOO2MLPro
 from mlpro.rl.pool.policies.randomgenerator import RandomGenerator
 
 

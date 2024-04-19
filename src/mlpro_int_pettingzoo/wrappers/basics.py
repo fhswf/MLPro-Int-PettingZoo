@@ -46,10 +46,11 @@
 ## -- 2023-03-26  2.2.0     DA       Class WrEnvPZOO2MLPro: refactoring of persistence
 ## -- 2024-01-23  2.3.0     SY       Debug due to introduction of PettingZoo version 1.24.3
 ## -- 2024-02-16  2.3.1     SY       Wrapper Relocation from MLPro to MLPro-Int-PettingZoo
+## -- 2024-04-19  2.4.0     DA       Alignment with MLPRO 1.4.0
 ## -------------------------------------------------------------------------------------------------
 
 """
-Ver. 2.3.1 (2024-02-16)
+Ver. 2.4.0 (2024-04-19)
 
 This module provides wrapper classes for PettingZoo multi-agent environments.
 
@@ -61,7 +62,7 @@ See also: https://pypi.org/project/PettingZoo/
 import gymnasium
 from pydoc import locate
 import numpy as np
-from mlpro.wrappers.models import Wrapper
+from mlpro.wrappers import Wrapper
 from mlpro.rl import *
 from pettingzoo import AECEnv
 from pettingzoo.utils import agent_selector

@@ -28,7 +28,7 @@ This module shows how to wrap mlpro's Environment class to petting zoo compatibl
 
 
 from mlpro.bf.various import Log
-from mlpro_int_pettingzoo.wrappers import WrEnvMLPro2PZoo
+from mlpro_int_pettingzoo import WrEnvMLPro2PZoo
 from mlpro.rl.pool.envs.bglp import BGLP
 from pettingzoo.test import api_test
 
