@@ -17,11 +17,12 @@ or the other way around.
 
 
 **Preparation**
-   Before running the examples, please install the latest versions of MLPro, PettingZoo, and MLPro-Int-PettingZoo as follows:
 
-   .. code-block:: bash
+Before running the examples, please install the latest versions of MLPro, PettingZoo, and MLPro-Int-PettingZoo as follows:
 
-      pip install mlpro-int-pettingzoo[full] --upgrade
+.. code-block:: bash
+
+   pip install mlpro-int-pettingzoo[full] --upgrade
 
 
 **See also**
