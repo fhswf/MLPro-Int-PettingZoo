@@ -17,6 +17,6 @@ Welcome to MLPro-Int-PettingZoo, an extension to MLPro to integrate the PettingZ
 MLPro-Int-PettingZoo offers wrapper classes that allow the reuse of environments from PettingZoo in MLPro, or the other way around.
 
 ### Learn more
-[MLPro - Machine Learning Professional](https://mlpro.readthedocs.io)   
+[MLPro - The integrative middleware framework for standardized machine learning in Python](https://mlpro.readthedocs.io)   
 [MLPro-Int-PettingZoo - Integration of PettingZoo into MLPro](https://mlpro-int-pettingzoo.readthedocs.io)   
 [PettingZoo - An API standard for multi-agent reinforcement learning](https://pettingzoo.farama.org/index.html) 
