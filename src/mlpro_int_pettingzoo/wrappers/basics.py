@@ -65,7 +65,7 @@ import numpy as np
 from mlpro.wrappers import Wrapper
 from mlpro.rl import *
 from pettingzoo import AECEnv
-from pettingzoo.utils import agent_selector
+from pettingzoo.utils import AgentSelector
 from pettingzoo.utils import wrappers
 
 
@@ -487,7 +487,7 @@ class WrEnvMLPro2PZoo(Wrapper):
             
             self._mlpro_env.reset(seed)
             
-            self._agent_selector = agent_selector(self.agents)
+            self._agent_selector = AgentSelector(self.agents)
             self.agent_selection = self._agent_selector.next()
 
 
