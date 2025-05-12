@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='mlpro-int-pettingzoo',
-version='1.0.0',
+version='1.0.1',
 description='MLPro: Integration PettingZoo',
 author='MLPro Team',
 author_mail='mlpro@listen.fh-swf.de',
@@ -15,7 +15,7 @@ extras_require={
         "mlpro[full]>=1.4.0",
         "pygame>=2.1.3",
         "pymunk>=6.4.0",
-        "pettingzoo>=1.22.3"
+        "pettingzoo>=1.25.0"
     ],
 },
 
