@@ -1,7 +1,7 @@
 mlpro[full]
 pygame>=2.1.3
 pymunk>=6.4.0
-pettingzoo>=1.22.3
+pettingzoo>=1.25.0
 
 sphinxcontrib-napoleon
 sphinx-copybutton
