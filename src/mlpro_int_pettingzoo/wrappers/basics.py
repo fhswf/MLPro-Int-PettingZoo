@@ -68,6 +68,7 @@ from mlpro.rl import *
 from pettingzoo import AECEnv
 from pettingzoo.utils import AgentSelector
 from pettingzoo.utils import wrappers
+from mlpro.bf import *
 
 # Export list for public API
 __all__ = [
