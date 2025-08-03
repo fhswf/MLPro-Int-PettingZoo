@@ -1,1 +1,1 @@
-from mlpro_int_pettingzoo.wrappers import *
+from .wrappers import *
