@@ -47,11 +47,11 @@
 ## -- 2023-09-25  2.0.0     DA       Refactoring:
 ## --                                - Howtos were moved from ./src to ./test/howtos
 ## --                                - New auto-scan of files to be tested
+## -- 2025-08-03  2.0.1     SY       Refactoring
 ## -------------------------------------------------------------------------------------------------
 
-
 """
-Ver. 2.0.0 (2023-09-25)
+Ver. 2.0.1 (2025-08-03)
 
 Unit test for all examples available.
 """
@@ -59,7 +59,7 @@ Unit test for all examples available.
 
 import sys
 import os
-from mlpro.bf.various import Log
+from mlpro.bf import *
 import runpy
 import pytest
 
