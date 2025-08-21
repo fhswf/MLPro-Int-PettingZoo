@@ -14,10 +14,11 @@
 ## -- 2022-11-02  1.0.5     SY       Unable logging in unit test model
 ## -- 2023-03-02  1.0.6     LSB      Refactoring
 ## -- 2024-02-16  1.0.7     SY       Wrapper Relocation from MLPro to MLPro-Int-PettingZoo
+## -- 2025-08-03  1.0.8     SY       Refactoring
 ## -------------------------------------------------------------------------------------------------
 
 """
-Ver. 1.0.7 (2024-02-16)
+Ver. 1.0.8 (2025-08-03)
 
 This module shows how to wrap mlpro's Environment class to petting zoo compatible.
 
@@ -27,7 +28,7 @@ This module shows how to wrap mlpro's Environment class to petting zoo compatibl
 """
 
 
-from mlpro.bf.various import Log
+from mlpro.bf import *
 from mlpro_int_pettingzoo import WrEnvMLPro2PZoo
 from mlpro.rl.pool.envs.bglp import BGLP
 from pettingzoo.test import api_test

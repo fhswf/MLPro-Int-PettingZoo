@@ -29,10 +29,11 @@
 ## --                                persistence of pettingzoo scenarios
 ## -- 2024-01-23  1.4.1     SY       Debug due to introduction of PettingZoo version 1.24.3
 ## -- 2024-02-16  1.4.2     SY       Wrapper Relocation from MLPro to MLPro-Int-PettingZoo
+## -- 2025-08-03  1.4.3     SY       Refactoring
 ## -------------------------------------------------------------------------------------------------
 
 """
-Ver. 1.4.2 (2024-02-16)
+Ver. 1.4.3 (2025-08-03)
 
 This module shows how to run an own policy inside the MLPro standard agent model with a wrapped
 Petting Zoo environment.
@@ -53,6 +54,8 @@ from pettingzoo.butterfly import pistonball_v6
 from pettingzoo.classic import connect_four_v3
 from mlpro.bf.math import *
 from mlpro.rl import *
+from mlpro.bf import *
+from mlpro.bf.ml import *
 from mlpro_int_pettingzoo import WrEnvPZOO2MLPro
 from mlpro.rl.pool.policies.randomgenerator import RandomGenerator
 
